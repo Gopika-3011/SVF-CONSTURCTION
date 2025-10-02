@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVF Construction</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="./images/svfhome.jpg" loading="eager" decoding="async" class="logo-img">
+      <div class="logo-text">
+        <h1 class="logo">Svf Construction</h1>
+        <h5>Brick And Soil Infra</h5>
+      </div>
+        <img src="./images/logo.jpg" loading="eager" decoding="async" class="logo1-img">
+
+    </div>
+    <div class="navbar-right">
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <nav class="nav-menu" id="navmenu">
+        <a href="#about" class="nav-link">ABOUT</a>
+        <a href="#project" class="nav-link">PROJECT</a>
+        <a href="#package" class="nav-link">PACKAGE</a>
+        <a href="./images/SPECIFICATION website .pdf" class="nav-link">SPECIFICATION</a>
+        <a href="#howitworks" class="nav-link">HOW IT WOKRS</a>
+        <a href="#estimator" class="nav-link">ESTIMATOR</a>
+        <button id="contactBtn" class="contact-btn">Contact Us</button>
+
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <main class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="images/houseee.mp4" loading="eager" decoding="async" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    <!-- Left Side with Background -->
+    <div class="hero-left">
+      <div class="overlay">
+        <h2>
+          BUILD YOUR DREAM HOME <br>
+          <span class="highlight">FOR A HAPPY LIFE</span>
+        </h2>
+        <div class="stats">
+          <div class="stat-box">
+            <p class="stat-number"><span class="counter" data-target="400">0</span>+</p>
+            <p class="stat-text">Homes</p>
+          </div>
+          <div class="stat-box">
+            <p class="stat-number"><span class="counter" data-target="10">0</span>+</p>
+            <p class="stat-text">Floor Plans</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side (Form) -->
+    <div id="contactForm" class="hero-right">
+      <h3>Get in Touch</h3>
+      <p class="form-subtext">For Best Quality Construction At Affordable Rates</p>
+
+      <form id="contactFormForm">
+        <input type="text" name="name" placeholder="Full Name*" required>
+        <div class="phone-input">
+          <span>+91</span>
+          <input type="tel" name="phone" placeholder="Mobile Number*" required>
+        </div>
+        <input type="text" name="location" placeholder="Location of your plot*" required>
+        <button type="submit">Start Your Construction</button>
+      </form>
+      <p class="form-note">
+        *By submitting this form, I confirm that I have read and agreed to accept SVF Construction' privacy policy
+      </p>
+    </div>
+  </main>
+
+  <section id="about" class="about-section">
+    <!-- Left Content -->
+    <div class="about-text">
+      <h2>About <span>Us</span></h2>
+      <div class="divider1"></div>
+      <p>
+        At SVF Construction Private Limited, we provide complete home construction services designed to match every client’s
+        needs.
+        Our main services include:
+      </p>
+
+      <p><strong>Custom Home Construction</strong></p>
+      <p><strong>Design and Build:</strong> We help you design and build your dream home from the ground up, focusing on
+        every detail.</p>
+      <p><strong>End-to-End Project Management:</strong> Our team handles the entire process—from planning to final
+        inspection—so you can relax.</p>
+      <p><strong>General Contracting</strong></p>
+      <p><strong>Cost-Plus Contracts:</strong> We offer cost-plus contracts for clear pricing and flexibility during
+        construction.</p>
+      <p><strong>Lump-Sum Contracts:</strong> For fixed budgets, we also provide lump-sum contracts with agreed pricing
+        upfront.</p>
+    </div>
+
+    <!-- Right Image -->
+    <div class="about-image">
+      <img src="./images/project 15.jpg" loading="eager" decoding="async" alt="Modern House">
+    </div>
+  </section>
+
+
+  <section class="stats-section">
+    <h2>You Made the <span>Right Choice</span></h2>
+    <div class="divider"></div>
+    <p class="stats-subtext">
+      Because we don’t just build homes, we build trust. Every brick we lay is backed by technology, transparency, and a
+      promise to put your family first.
+    </p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <h3><span class="counter" data-target="40">0</span>+</h3>
+        <p>Total Projects</p>
+      </div>
+      <div class="stat-card">
+        <h3><span class="counter" data-target="10">0</span>+</h3>
+        <p>Floor Plans</p>
+      </div>
+      <div class="stat-card">
+        <h3><span class="counter" data-target="100">0</span>+</h3>
+        <p>Construction Workers</p>
+      </div>
+      <div class="stat-card">
+        <h3><span class="counter" data-target="400000">0</span> sqft</h3>
+        <p>Total Build-up Area</p>
+      </div>
+    </div>
+  </section>
+
+
+<section class="comparison-section">
+  <h2>Why Choose Us Over<span> Other Contractors?</span></h2>
+  <div class="divider"></div>
+
+  <div class="comparison-table">
+    <!-- Header Row -->
+    <div class="row header">
+      <div class="col left">SVF Construction</div>
+      <div class="col right">Other Contractors</div>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col left">✔ Money is safe</div>
+      <div class="col right">✖ Money at risk</div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="col left">✔ More quality checks</div>
+      <div class="col right">✖ No quality checks</div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row">
+      <div class="col left">✔ Track progress on daily updates</div>
+      <div class="col right">✖ Only manual site visits</div>
+    </div>
+
+    <!-- Row 4 -->
+    <div class="row">
+      <div class="col left">✔ No extra costs</div>
+      <div class="col right">✖ Costs often increase</div>
+    </div>
+
+    <!-- Row 5 -->
+    <div class="row">
+      <div class="col left">✔ Visit our offline centers anytime</div>
+      <div class="col right">✖ No offline support</div>
+    </div>
+
+    <!-- Row 6 -->
+    <div class="row">
+      <div class="col left">✔ Completed 35+ projects in 10+ cities</div>
+      <div class="col right">✖ Unverified contractors</div>
+    </div>
+
+    <!-- Row 7 -->
+    <div class="row">
+      <div class="col left">✔ Strong red bricks & natural river sand</div>
+      <div class="col right">✖ Weak hollow blocks & artificial sand</div>
+    </div>
+
+    <!-- Row 8 (Specifications) -->
+    <div class="row">
+      <div class="col left">✔ Built with qualified specifications approved by industry standards</div>
+      <div class="col right">✖ Uses unverified materials without proper specifications</div>
+    </div>
+  </div>
+
+  <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+</section>
+
+
+
+
+  <section id="project" class="projects-section">
+    <h2>Our <span>Projects</span></h2>
+    <div class="divider"></div>
+    <p>From young couples to large families, we craft homes filled with emotions, ensuring safety, durability, and
+      excellence in every detail.</p>
+
+    <!-- Scrollable Customer Cards -->
+    <div class="scroll-container">
+      <!-- Existing 8 Projects -->
+      <div class="card">
+        <img src="./images/project 1.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 3600 sqft</p>
+          <h4>Premium Package</h4>
+          <p class="tag"><i class="fa-solid fa-star" style="color: #0041A8;"></i> Best Quality Construction</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 2.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 3180 sqft</p>
+          <h4>Royale Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Completed 1 Month In Advance
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 3.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 13140 sqft</p>
+          <h4>Imperia Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Completed On Time</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 4.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 2755 sqft</p>
+          <h4>Classic Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Premium Finishing</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 5.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 2405 sqft</p>
+          <h4>Basic Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Budget Friendly</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 6.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 14193 sqft</p>
+          <h4>Premium Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Spacious Design</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 7.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 23980 sqft</p>
+          <h4>Royale Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Luxury Interiors</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 9.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 3600 sqft</p>
+          <h4>Imperia Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Completed On Time</p>
+        </div>
+      </div>
+
+      <!-- ✅ New 7 Projects -->
+      <div class="card">
+        <img src="./images/project 10.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+3 | 6200 sqft</p>
+          <h4>Premium Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Modern Elevation</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 11.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 2302 sqft</p>
+          <h4>Basic Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Affordable Choice</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 12.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+3 | 2384 sqft</p>
+          <h4>Royale Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Luxury Living Spaces</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 13.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+2 | 2287 sqft</p>
+          <h4>Classic Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Stylish & Durable</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 14.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+3 | 7630 sqft</p>
+          <h4>Premium Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i>Contemporary Design</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 15.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+3 | 1848 sqft</p>
+          <h4>Imperia Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Completed Within Deadline
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/project 16.jpg" loading="eager" decoding="async" alt="Customer Project">
+        <div class="card-content">
+          <p>G+3 | 2614 sqft</p>
+          <h4>Basic Package</h4>
+          <p class="tag"><i class="fa-solid fa-bolt-lightning" style="color: #0041A8;"></i> Compact & Elegant</p>
+        </div>
+      </div>
+    </div>
+<div>
+<a href="./images/SPECIFICATION website .pdf" >
+  <button class="cta-btn">Specification</button>
+</a>
+</div>
+    <!-- Button -->
+    <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+  </section>
+
+<section id="estimator" class="container"> 
+  <h1>Estimate your Home Construction Cost</h1>
+  <p class="subtitle">Planning to build your dream home in Chennai? Use SVF Construction Cost Calculator to quickly estimate how much your home construction might cost.</p>
+
+  <form id="estimatorForm">
+    <div class="form-group">
+      <label for="name">Name*</label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Mobile Number*</label>
+      <input type="tel" id="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="location">Location of your Plot*</label>
+      <input type="text" id="location" required>
+    </div>
+
+    <div class="form-group">
+      <label for="area">Super built-up area (sqft)*</label>
+      <input type="number" id="area" required>
+    </div>
+
+    <button type="button" onclick="calculateEstimate()">Estimate Cost For FREE</button>
+  </form>
+
+  <div class="result" id="result" style="margin-top:15px;"></div>
+</section>
+
+
+  <section id="package" class="packages-section">
+    <h2>Our Construction <span>Packages</span></h2>
+    <div class="divider"></div>
+    <!-- City Dropdown -->
+    <select id="citySelect" class="city-select">
+      <option value="chennai">Chennai</option>
+      <option value="bengaluru">Bengaluru</option>
+      <option value="hyderabad">Hyderabad</option>
+      <option value="mysuru">Mysuru</option>
+      <option value="delhi">NCR-Delhi</option>
+      <option value="gurgaon">NCR-Gurgaon</option>
+      <option value="noida">NCR-Noida</option>
+      <option value="ghaziabad">NCR-Ghaziabad</option>
+      <option value="faridabad">NCR-Faridabad</option>
+      <option value="pune">Pune</option>
+    </select>
+
+    <!-- Packages Table -->
+    <table>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <th id="basicRate">₹1750 /sqft (Incl. GST)</th>
+        </tr>
+        <tr>
+          <td>Classic</td>
+          <th id="classicRate">₹2170 /sqft (Incl. GST)</th>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <th id="premiumRate">₹2540 /sqft (Incl. GST)</th>
+        </tr>
+        <tr>
+          <td>Royale</td>
+          <th id="royaleRate">₹2810 /sqft (Incl. GST)</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Button -->
+    <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+  </section>
+
+
+  <section id="review" class="reviews-section">
+    <h2>What are our <span>Customers Rating?</span></h2>
+    <div class="divider"></div>
+    <h4>400+ happy homeowners trusted us with building their homes</h4>
+
+    <div class="reviews-slider">
+      <div class="review-card">
+        <h3 class="customer-name">BALA MURUGAN</h3>
+        <p class="customer-review">The team built my dream home exactly as I imagined. Excellent service.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">MADHAN</h3>
+        <p class="customer-review">Very professional and punctual. Highly recommend.</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">SIVA KUMAR</h3>
+        <p class="customer-review">Good quality work, but a bit slow on timelines.</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">SUBHA</h3>
+        <p class="customer-review">Absolutely love my new home! The team was amazing.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">VENKATESH</h3>
+        <p class="customer-review">Great craftsmanship and attention to detail.</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">LAKSHMI</h3>
+        <p class="customer-review">I am extremely satisfied with the entire process.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">VINOTH KUMAR</h3>
+        <p class="customer-review">Work quality is decent, but communication could improve.</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">VIJAYA</h3>
+        <p class="customer-review">Superb experience! The team was friendly and efficient.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">DEVARAJ</h3>
+        <p class="customer-review">They delivered on time and exceeded my expectations.</p>
+        <div class="stars">★★★★☆</div>
+      </div>
+
+      <div class="review-card">
+        <h3 class="customer-name">REVATHY</h3>
+        <p class="customer-review">Excellent service, highly recommend for home construction.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+    </div>
+
+    <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+  </section>
+
+
+
+
+  <section class="expertise-section">
+    <h2>Our <span>Expertise</span></h2>
+    <div class="divider"></div>
+
+    <div class="expertise-grid">
+      <!-- Card 1 -->
+      <div class="expertise-card">
+        <div class="card-inner">
+          <!-- Front -->
+          <div class="card-front">
+            <div class="icon-circle">
+              <img src="./images/expertiselogo1.webp" loading="eager" decoding="async" alt="Home Construction">
+            </div>
+            <h3>Home Construction</h3>
+          </div>
+          <!-- Back -->
+          <div class="card-back">
+            <img src="./images/expertise1.jpg" loading="eager" decoding="async" alt="Home Construction Back"
+              style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="expertise-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="icon-circle">
+              <img src="./images//expertiselogo2.webp" loading="eager" decoding="async" alt="Architecture">
+            </div>
+            <h3>Architecture & Structural Design</h3>
+          </div>
+          <div class="card-back">
+            <img src="./images/expertise2.jpg" loading="eager" decoding="async" alt="Architecture Back"
+              style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="expertise-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="icon-circle">
+              <img src="./images//expertiselogo3.webp" loading="eager" decoding="async" alt="Interior Designing">
+            </div>
+            <h3>Interior Designing</h3>
+          </div>
+          <div class="card-back">
+            <img src="./images/expertise3.jpg" loading="eager" decoding="async" alt="Interior Back"
+              style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="expertise-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="icon-circle">
+              <img src="./images/expertiselogo4.webp" loading="eager" decoding="async" alt="Planning & Management">
+            </div>
+            <h3>Planning & Management</h3>
+          </div>
+          <div class="card-back">
+            <img src="./images/expertise4.jpg" loading="eager" decoding="async" alt="Planning Back"
+              style="width:100%; height:100%; object-fit:cover; border-radius:10px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cities-section">
+    <h2>We are available in <span>10+ cities</span></h2>
+    <div class="divider"></div>
+    <div class="cities-container">
+      <div class="city">
+        <img src="./images/bengaluru.svg" loading="eager" decoding="async" alt="Bangalore">
+        <span>Bangalore</span>
+      </div>
+      <div class="city">
+        <img src="./images/delhi_ncr.svg" loading="eager" decoding="async" alt="Delhi">
+        <span>Delhi</span>
+      </div>
+      <div class="city">
+        <img src="./images/chennai.svg" loading="eager" decoding="async" alt="Chennai">
+        <span>Chennai</span>
+      </div>
+      <div class="city">
+        <img src="./images/hyderabad.svg" loading="eager" decoding="async" alt="Hyderabad">
+        <span>Hyderabad</span>
+      </div>
+      <div class="city">
+        <img src="./images/pune.svg" loading="eager" decoding="async" alt="Pune">
+        <span>Pune</span>
+      </div>
+      <div class="city">
+        <img src="./images/mysuru.svg" loading="eager" decoding="async" alt="Mysuru">
+        <span>Mysuru</span>
+      </div>
+      <div class="city">
+        <img src="./images/noida.svg" loading="eager" decoding="async" alt="Noida">
+        <span>Noida</span>
+      </div>
+      <div class="city">
+        <img src="./images/ghaziabad.svg" loading="eager" decoding="async" alt="Ghaziabad">
+        <span>Ghaziabad</span>
+      </div>
+      <div class="city">
+        <img src="./images/gurgaon.svg" loading="eager" decoding="async" alt="Gurugram">
+        <span>Gurugram</span>
+      </div>
+      <div class="city">
+        <img src="./images/faridabad.svg" loading="eager" decoding="async" alt="Faridabad">
+        <span>Faridabad</span>
+      </div>
+    </div>
+  </section>
+  <!-- Sticky CTA -->
+  <div id="stickyCta" class="sticky-cta">
+    <button id="contactBtn" class="cta-btn modalcontactForm">Start Your Construction</button>
+  </div>
+
+  <!-- Modal Background -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Get In Touch</h2>
+      <p class="subtext">For Best Quality Construction At Affordable Rates</p>
+      <form id="modalcontactForm">
+        <input type="text" name="name" placeholder="Full Name*" required />
+        <input type="tel" name="phone" placeholder="+91 Mobile Number*" required />
+        <input type="text" name="location" placeholder="Location of your plot*" required />
+        <button type="submit" class="submit-btn">Start Your Construction</button>
+      </form>
+
+      <p class="privacy-note">
+        *By submitting this form, I confirm that I have read and agreed to accept Brick& soil’s <a href="#">privacy
+          policy</a>
+      </p>
+
+      <div class="features">
+        <div>
+          <h3><span class="counter" data-target="400">0</span>+</h3>
+          <p>Homes Built</p>
+        </div>
+        <div>
+          <h3><span class="counter" data-target="100">0</span>%</h3>
+          <p>Money Safety</p>
+        </div>
+        <div>
+          <h3><span class="counter" data-target="70">0</span>+</h3>
+          <p>Quality Checks</p>
+        </div>
+      </div>
+      <p id="success" style="color: green;text-align: center; display: none;">Contact saved successfully!</p>
+    </div>
+  </div>
+
+
+  <section id="howitworks" class="how-it-works">
+    <h2>How It <span>Works?</span></h2>
+    <div class="divider"></div>
+    <div class="how-container">
+
+      <!-- Steps Navigation -->
+      <div class="steps-nav">
+        <div class="step active" data-step="1">1. Consultation</div>
+        <div class="step" data-step="2">2. Review our work</div>
+        <div class="step" data-step="3">3. Place the order</div>
+        <div class="step" data-step="4">4. Design</div>
+        <div class="step" data-step="5">5. Execution & Tracking</div>
+        <div class="step" data-step="6">6. Move in</div>
+      </div>
+
+      <!-- Step Content -->
+      <div class="steps-content">
+        <div class="step-content active" id="step-1">
+          <img src="./images/consultation.webp" loading="eager" decoding="async" alt="Consultation">
+          <h3>1. Consultation</h3>
+          <p>Raise an enquiry or call us. Our expert will get in touch and provide estimation for your requirement.</p>
+        </div>
+        <div class="step-content" id="step-2">
+          <img src="./images/review.webp" loading="eager" decoding="async" alt="Review">
+          <h3>2. Review our work</h3>
+          <p>Visit our projects, check our quality, and finalize the deal.</p>
+        </div>
+        <div class="step-content" id="step-3">
+          <img src="./images/contract.webp" loading="eager" decoding="async" alt="Order">
+          <h3>3. Place the order</h3>
+          <p>Sign the transparent contract and we proceed with design.</p>
+        </div>
+        <div class="step-content" id="step-4">
+          <img src="./images/design.webp" loading="eager" decoding="async" alt="Design">
+          <h3>4. Design</h3>
+          <p>Our architect finalizes the best design for your needs.</p>
+        </div>
+        <div class="step-content" id="step-5">
+          <img src="./images/execute-tracking.webp" loading="eager" decoding="async" alt="Execution">
+          <h3>5. Execution & Tracking</h3>
+          <p>Our team tracks progress and shares updates with you.</p>
+        </div>
+        <div class="step-content" id="step-6">
+          <img src="./images/move-in.webp" loading="eager" decoding="async" alt="Move in">
+          <h3>6. Move in</h3>
+          <p>On-time completion and handover of your dream home.</p>
+        </div>
+      </div>
+    </div>
+    <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+
+  </section>
+
+
+
+  <section class="timeline">
+    <h2 class="timline h2">Step-by-Step <span>Journey</span></h2>
+    <div class="divider"></div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">1</div>
+      <div class="timeline-content">
+        <img src="./images/CONSTRUCTION-EXECUTION1.png" loading="eager" decoding="async" alt="Consultation">
+        <h3>Consultation</h3>
+        <p>Call us at +91 94448 92265 or email enquiry @svfconstruction.com.</p>
+        <p>Our expert will call you back to understand your needs.</p>
+        <p>You will also get an approximate cost estimate.</p>
+      </div>
+    </div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">2</div>
+      <div class="timeline-content">
+        <img src="./images/REVIEW1.png" loading="eager" decoding="async" alt="Review">
+        <h3>Review our work</h3>
+        <p>Visit our ongoing projects to check quality and process.</p>
+        <p>Discuss your queries with our technical expert.</p>
+      </div>
+    </div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">3</div>
+      <div class="timeline-content">
+        <img src="./images/CONTRACT1.png" loading="eager" decoding="async" alt="Order">
+        <h3>Place the order</h3>
+        <p>If you are happy with our service, sign the contract.</p>
+        <p>We also provide doorstep agreement during Covid-19.</p>
+      </div>
+    </div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">4</div>
+      <div class="timeline-content">
+        <img src="./images/DESIGN1.png" loading="eager" decoding="async" alt="Design">
+        <h3>Design</h3>
+        <p>You will be connected with our senior architect.</p>
+        <p>Share your inputs for floor plan and elevation.</p>
+        <p>The design will be created and revised if needed.</p>
+      </div>
+    </div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">5</div>
+      <div class="timeline-content">
+        <img src="./images/CONSTRUCTION-EXECUTION1.png" loading="eager" decoding="async" alt="Execution">
+        <h3>Execution & Tracking</h3>
+        <p>A project manager and site engineer will be assigned.</p>
+        <p>Construction will start once plan approvals are ready.</p>
+        <p>Materials will be stored safely at the site shed.</p>
+      </div>
+    </div>
+
+    <div class="timeline-step hidden">
+      <div class="timeline-marker">6</div>
+      <div class="timeline-content">
+        <img src="./images/MOVE-IN1.png" loading="eager" decoding="async" alt="Move in">
+        <h3>Move in</h3>
+        <p>Our team ensures timely and safe project delivery.</p>
+        <p>You can happily move into your dream home on time.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="partner">
+    <h2>Our Banking <span>Partners</span></h2>
+    <div class="divider"></div>
+    <p>Helping customers get easy access to loans for home construction</p>
+
+    <div class="partners">
+      <div class="partner-card">
+        <img src="./images/cbi.png" loading="eager" decoding="async" alt="cbi">
+      </div>
+      <div class="partner-card">
+        <img src="./images/bob.jpg" loading="eager" decoding="async" alt="Bob">
+      </div>
+      <div class="partner-card">
+        <img src="./images/iob.webp" loading="eager" decoding="async" alt="iob">
+      </div>
+      <div class="partner-card">
+        <img src="./images/hdfc_home_loan.webp" loading="eager" decoding="async" alt="HDFC Home Loans">
+      </div>
+      <div class="partner-card">
+        <img src="./images/indian.jpg" loading="eager" decoding="async" alt="indian">
+      </div>
+      <div class="partner-card">
+        <img src="./images/sbi_home_loan.webp" loading="eager" decoding="async" alt="SBI Home Loans">
+      </div>
+    </div>
+    <button id="contactBtn" class="cta-btn">Start Your Construction</button>
+  </section>
+
+
+  <section class="faq">
+    <h2>FAQ<span>s</span></h2>
+    <div class="divider"></div>
+
+    <div class="faq-item">
+      <button class="faq-question">What home construction services does Svf Construction offer?</button>
+      <div class="faq-answer">
+        <p>We provide end-to-end design-to-build construction services including planning, approvals, project execution,
+          quality checks, and post-construction support.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How much time will it take to complete home construction?</button>
+      <div class="faq-answer">
+        <p>Construction timelines vary depending on project size and approvals, but we provide a clear schedule and
+          progress updates throughout.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do I have to pay the full amount before the home construction starts?</button>
+      <div class="faq-answer">
+        <p>No, we provide flexible payment schedules linked to project milestones, ensuring transparency and customer
+          convenience.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What warranty or post-construction support does Svf Construction offer?</button>
+      <div class="faq-answer">
+        <p>We offer post-construction warranty support to ensure quality, durability, and customer satisfaction after
+          project completion.</p>
+      </div>
+    </div>
+
+  </section>
+ 
+
+  <footer style="background:#282828; color:#fff; padding:40px 20px 20px; font-family:Arial, sans-serif;">
+    <div style="display:flex; flex-wrap:wrap; justify-content:space-between; max-width:1200px; margin:auto;">
+
+      <!-- Company Info -->
+      <div style="flex:1 1 250px; margin:10px;">
+        <h2 style=" font-weight: 700; margin-bottom:10px;">SVF CONSTRUCTION</h2>
+        <p style="font-size: 20px"><strong>Office Address:</strong></p>
+        <p style="font-size: 20px; margin-top: 5px;">
+          Head Office: Address: No.3, Munusami Koil Street, Menambedu, Ambattur, Chennai - 53.
+        </p>
+
+
+        <div style="margin-top:15px; font-size: 28px;">
+          <a href="https://www.facebook.com/people/SVF-Brick-Soil/61581455695122/"
+            style="margin-right:10px; color:#fff; "><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/svf_brick_soil?igsh=MXc5MGdlNGJiZ2Y5NA=="
+            style="margin-right:10px; color:#fff;"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com/@svfbricksoil?si=4YJFWvcBDkZmD8XZ" style="margin-right:10px; color:#fff;"><i
+              class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div style="flex:1 1 150px; margin:10px;">
+        <h3 style="border-bottom:1px solid #0041A8; padding-bottom:5px;">Quick Links</h3>
+        <ul style="list-style:none; padding:0; line-height:2;">
+          <li><a href="#" style="color:#fff; text-decoration:none;">Home</a></li>
+          <li><a href="#about" style="color:#fff; text-decoration:none;">About Us</a></li>
+          <li><a href="#howitworks" style="color:#fff; text-decoration:none;">How it Works</a></li>
+          <li><a href="#package" style="color:#fff; text-decoration:none;">Packages</a></li>
+          <li><a href="#project" style="color:#fff; text-decoration:none;">Projects</a></li>
+          <li><a href="#review" style="color:#fff; text-decoration:none;">Review</a></li>
+          <li><a href="#" style="color:#fff; text-decoration:none;">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div style="flex:1 1 200px; margin:10px;">
+        <h3 style="border-bottom:1px solid #0041A8; padding-bottom:5px;">Contact Us</h3>
+        <p><i class="fa-solid fa-phone" style="color: #fcfcfd; margin-top: 8px; margin-right: 5px;"></i>94448 92265</p>
+        <p><i class="fa-solid fa-phone" style="color: #fcfcfd; margin-top: 8px; margin-right: 5px;"></i> 73585 28262</p>
+        <p><i class="fa-solid fa-envelope" style="color: #fcfcfd; margin-top: 8px; margin-right: 5px"></i>
+          svfbricksoil@gmail.com</p>
+
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:20px; font-size:14px; border-top:1px solid #444; padding-top:10px;">
+      © 2025 svfconstruction.com All rights reserved. | Powered by SVF Construction Pvt Ltd.
+    </div>
+  </footer>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
